@@ -1,5 +1,6 @@
 # JAVAAVANZADO5
-Taller 8 y 9
+Taller 8 y 9.
+
 LoginForwardingServlet: Este servlet se encarga de redirigir las solicitudes a la página de inicio de sesión (inicio.jsp). Cuando recibe una solicitud GET en la ruta /login, utiliza RequestDispatcher para reenviar la solicitud a /inicio.jsp.
 
 CategoryForwardingServlet: Este servlet redirige las solicitudes a la página de categoría (category.jsp). Cuando recibe una solicitud GET en la ruta /category, utiliza RequestDispatcher para reenviar la solicitud a /category.jsp.
